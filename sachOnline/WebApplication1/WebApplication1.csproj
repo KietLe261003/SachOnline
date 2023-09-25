@@ -45,10 +45,18 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -125,6 +133,57 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\ADMIN.cs">
+      <DependentUpon>dbSachOnline.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\CHUDE.cs">
+      <DependentUpon>dbSachOnline.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\CTDATHANG.cs">
+      <DependentUpon>dbSachOnline.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\CTTHAMDO.cs">
+      <DependentUpon>dbSachOnline.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\dbSachOnline.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbSachOnline.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\dbSachOnline.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbSachOnline.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\dbSachOnline.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbSachOnline.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Models\DONDATHANG.cs">
+      <DependentUpon>dbSachOnline.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\KHACHHANG.cs">
+      <DependentUpon>dbSachOnline.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\NHAXUATBAN.cs">
+      <DependentUpon>dbSachOnline.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\QUANGCAO.cs">
+      <DependentUpon>dbSachOnline.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\SACH.cs">
+      <DependentUpon>dbSachOnline.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\TACGIA.cs">
+      <DependentUpon>dbSachOnline.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\THAMDO.cs">
+      <DependentUpon>dbSachOnline.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\VIETSACH.cs">
+      <DependentUpon>dbSachOnline.tt</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -193,9 +252,26 @@
     <Content Include="Images\Sotien.gif" />
     <Content Include="Images\tittle_sachmoi.gif" />
     <Content Include="Images\xehang.gif" />
+    <Content Include="Models\dbSachOnline.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>dbSachOnline.Context.cs</LastGenOutput>
+      <DependentUpon>dbSachOnline.edmx</DependentUpon>
+    </Content>
+    <Content Include="Models\dbSachOnline.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>dbSachOnline.edmx</DependentUpon>
+      <LastGenOutput>dbSachOnline.cs</LastGenOutput>
+    </Content>
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Images\Sach\Thumbs.db" />
+    <EntityDeploy Include="Models\dbSachOnline.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>dbSachOnline.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="Models\dbSachOnline.edmx.diagram">
+      <DependentUpon>dbSachOnline.edmx</DependentUpon>
+    </Content>
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -225,10 +301,13 @@
     <Content Include="Views\SachOnline\Index.cshtml" />
     <Content Include="Views\Shared\ChuDePartial.cshtml" />
     <Content Include="Views\Shared\SachBanNhieu.cshtml" />
+    <Content Include="Views\SachOnline\NavPartial.cshtml" />
+    <Content Include="Views\SachOnline\SliderPartia.cshtml" />
+    <Content Include="Views\SachOnline\FooterPartial.cshtml" />
+    <Content Include="Views\SachOnline\SliderPartial.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
@@ -242,6 +321,9 @@
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.4.1.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

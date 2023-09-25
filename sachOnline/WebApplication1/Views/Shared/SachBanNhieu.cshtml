@@ -1,77 +1,18 @@
-﻿<div>
+﻿@model List<WebApplication1.Models.SACH>
+<div>
     <h2 style="text-align: center">Sách bán nhiều</h2>
     <div class="Contrainer-Book">
+        @foreach(var item in Model)
+            {
         <div class="book">
-            <img src="~/Images/Sach/KT0006.jpg" />
+            <img src="~/Images/Sach/@item.HinhMinhHoa" />
             <div>
-                <p style="font-size: 25px;"> Tên sản phẩm </p>
+                <p style="font-size: 25px;"> @item.TenSach </p>
                 <p>
-                    Mô tả chi tiết sản phẩm, Mô tả chi tiết sản phẩm, Mô tả chi tiết sản phẩm,
-                    Mô tả chi tiết sản phẩm, Mô tả chi tiết sản phẩm, Mô tả chi tiết sản phẩm,
-                    Mô tả chi tiết sản phẩm, Mô tả chi tiết sản phẩm, Mô tả chi tiết sản phẩm
-                    Mô tả chi tiết sản phẩm
+                    @item.MoTa
                 </p>
             </div>
         </div>
-        <div class="book">
-            <img src="~/Images/Sach/Humpback Whale.jpg" />
-            <div>
-                <p style="font-size: 25px;"> Tên sản phẩm </p>
-                <p>
-                    Mô tả chi tiết sản phẩm, Mô tả chi tiết sản phẩm, Mô tả chi tiết sản phẩm,
-                    Mô tả chi tiết sản phẩm, Mô tả chi tiết sản phẩm, Mô tả chi tiết sản phẩm,
-                    Mô tả chi tiết sản phẩm, Mô tả chi tiết sản phẩm, Mô tả chi tiết sản phẩm
-                    Mô tả chi tiết sản phẩm
-                </p>
-            </div>
-        </div>
-        <div class="book">
-            <img src="~/Images/Sach/Kt.jpg" />
-            <div>
-                <p style="font-size: 25px;"> Tên sản phẩm </p>
-                <p>
-                    Mô tả chi tiết sản phẩm, Mô tả chi tiết sản phẩm, Mô tả chi tiết sản phẩm,
-                    Mô tả chi tiết sản phẩm, Mô tả chi tiết sản phẩm, Mô tả chi tiết sản phẩm,
-                    Mô tả chi tiết sản phẩm, Mô tả chi tiết sản phẩm, Mô tả chi tiết sản phẩm
-                    Mô tả chi tiết sản phẩm
-                </p>
-            </div>
-        </div>
-        <div class="book">
-            <img src="~/Images/Sach/KT0004.jpg" />
-            <div>
-                <p style="font-size: 25px;"> Tên sản phẩm </p>
-                <p>
-                    Mô tả chi tiết sản phẩm, Mô tả chi tiết sản phẩm, Mô tả chi tiết sản phẩm,
-                    Mô tả chi tiết sản phẩm, Mô tả chi tiết sản phẩm, Mô tả chi tiết sản phẩm,
-                    Mô tả chi tiết sản phẩm, Mô tả chi tiết sản phẩm, Mô tả chi tiết sản phẩm
-                    Mô tả chi tiết sản phẩm
-                </p>
-            </div>
-        </div>
-        <div class="book">
-            <img src="~/Images/Sach/KT0008.jpg" />
-            <div>
-                <p style="font-size: 25px;"> Tên sản phẩm </p>
-                <p>
-                    Mô tả chi tiết sản phẩm, Mô tả chi tiết sản phẩm, Mô tả chi tiết sản phẩm,
-                    Mô tả chi tiết sản phẩm, Mô tả chi tiết sản phẩm, Mô tả chi tiết sản phẩm,
-                    Mô tả chi tiết sản phẩm, Mô tả chi tiết sản phẩm, Mô tả chi tiết sản phẩm
-                    Mô tả chi tiết sản phẩm
-                </p>
-            </div>
-        </div>
-        <div class="book">
-            <img src="~/Images/Sach/KT0006.jpg" />
-            <div>
-                <p style="font-size: 25px;"> Tên sản phẩm </p>
-                <p>
-                    Mô tả chi tiết sản phẩm, Mô tả chi tiết sản phẩm, Mô tả chi tiết sản phẩm,
-                    Mô tả chi tiết sản phẩm, Mô tả chi tiết sản phẩm, Mô tả chi tiết sản phẩm,
-                    Mô tả chi tiết sản phẩm, Mô tả chi tiết sản phẩm, Mô tả chi tiết sản phẩm
-                    Mô tả chi tiết sản phẩm
-                </p>
-            </div>
-        </div>
+            }
     </div>
 </div>
