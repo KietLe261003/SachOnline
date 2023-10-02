@@ -48,5 +48,21 @@ namespace WebApplication1.Controllers
         {
             return PartialView();
         }
+        public ActionResult Sachtheochude(int id)
+        {
+            var ds = from s in db.SACHes where s.MaCD==id select s;
+            return View(ds);
+        }
+        public ActionResult Sachtheonhaxuatban(int id)
+        {
+            var ds = from s in db.SACHes where s.MaNXB == id select s;
+            return View(ds);
+        }
+        
+        public ActionResult Chitietsach(int id)
+        {
+            SACH tmp = db.SACHes.FirstOrDefault(item => item.MaSach==id);
+            return View(tmp);
+        }
     }
 }
