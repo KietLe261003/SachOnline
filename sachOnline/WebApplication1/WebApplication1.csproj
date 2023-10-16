@@ -128,6 +128,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\GioHangController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\SachOnlineController.cs" />
     <Compile Include="Controllers\UserController.cs" />
@@ -164,6 +165,7 @@
     <Compile Include="Models\DONDATHANG.cs">
       <DependentUpon>dbSachOnline.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\GioHang.cs" />
     <Compile Include="Models\KHACHHANG.cs">
       <DependentUpon>dbSachOnline.tt</DependentUpon>
     </Compile>
@@ -311,6 +313,11 @@
     <Content Include="Views\SachOnline\Chitietsach.cshtml" />
     <Content Include="Views\User\Dangky.cshtml" />
     <Content Include="Views\User\DangNhap.cshtml" />
+    <Content Include="Views\GioHang\GioHang.cshtml" />
+    <Content Include="Views\GioHang\GioHangPartial.cshtml" />
+    <Content Include="Views\GioHang\XoaGioHang.cshtml" />
+    <Content Include="Views\GioHang\DatHang.cshtml" />
+    <Content Include="Views\GioHang\XacNhanDonHang.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

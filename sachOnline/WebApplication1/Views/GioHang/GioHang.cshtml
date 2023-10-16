@@ -1,0 +1,94 @@
+﻿@model IEnumerable<WebApplication1.Models.GioHang>
+
+@{
+    ViewBag.Title = "GioHang";
+    Layout = "~/Views/Shared/Layout_User.cshtml";
+}
+
+<h2>GioHang</h2>
+<div>
+    <p>
+        @Html.ActionLink("Create New", "Create")
+    </p>
+    <table class="table">
+        <tr style="background-color:#9ca1a4; font-size:15px; font-weight:bold; text-align:center;">
+            <th>
+                @Html.DisplayNameFor(model => model.iMaSach)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.sTenSach)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.sAnhBia)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.dDonGia)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.iSoLuong)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.dThanhTien)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr align="center">
+                <td>
+                    @Html.DisplayFor(modelItem => item.iMaSach)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.sTenSach)
+                </td>
+                <td>
+                    <img src="~/Images/Sach/@item.sAnhBia" style="width:100px;">
+                </td>
+                @using (Html.BeginForm("CapNhatGioHang", "GioHang", new
+                {
+                    iMaSach = item.iMaSach
+                }))
+                {
+                    <td>
+                        @string.Format("{0:#,##0,0}", @item.dDonGia)
+                    </td>
+                    <td>
+                        <input type="number" min="1" name="txtSoLuong" value="@item.iSoLuong" style="background-color:#f4ff94" />
+                    </td>
+                    <td>
+                        @string.Format("{0:#,##0,0}", @item.dThanhTien)
+                    </td>
+                    <td>
+                        <a href="@Url.Action("ChiTietSach","SachOnline", new { id = item.iMaSach})">Chi tiết</a> |
+                        @Html.ActionLink("Xóa", "XoaGioHang", new { @iMaSach = item.iMaSach })
+                    </td>
+                    <td>
+                        <input type="submit" value="Cập nhật" />
+                    </td>
+                    <td>
+                    </td>
+                }
+            </tr>
+        }
+        <tr>
+            <td colspan="3" style="text-align:right; color:red; font-weight:bold; padding-right:5px;">
+                Tổng số lượng: @string.Format("{0:#,##0}", @ViewBag.TongSoLuong)
+            </td>
+            <td colspan="3" style="text-align:center; color:red; font-weight:bold;">
+                Tổng tiền: @string.Format("{0:#,##0,0}", @ViewBag.TongTien) VNĐ
+            </td>
+        </tr>
+        <tr style="font-weight:bold; color:blue; text-align:right;">
+            <td colspan="9">
+                @Html.ActionLink("Xóa giỏ hàng", "ClearGioHang")
+            </td>
+        </tr>
+        <tr style="font-weight: bold; text-align: center; color: blue">
+            <td colspan="9">
+                @Html.ActionLink("Đặt Hàng","DatHang","GioHang")
+            </td>
+        </tr>
+    </table>
+
+</div>

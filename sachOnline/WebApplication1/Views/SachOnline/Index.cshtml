@@ -18,7 +18,7 @@
                             <a href="@Url.Action("Chitietsach","SachOnline", new { id =item.MaSach})">@item.TenSach</a>
                         </h3>
                         <p>Mô tả tóm tắt sản phẩm</p>
-                        <p><a href="#" class="btn btn-warning" role="button"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Add to Cart</a></p>
+                        <p><a href="@Url.Action("ThemGioHang","GioHang", new { ms = item.MaSach, url = Request.Url.ToString() })" class="btn btn-warning" role="button"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Add to Cart</a></p>
                     </div>
                 </div>
             </div>

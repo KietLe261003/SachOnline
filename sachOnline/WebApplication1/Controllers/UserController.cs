@@ -99,12 +99,12 @@ namespace WebApplication1.Controllers
                 if(kh!=null)
                 {
                     ViewBag.thongbao = "Đăng nhập thành công";
+                    Session["TaiKhoan"] = kh;
                 }   
                 else
                 {
                     ViewBag.thongbao = "Sai tên tk hoặc mật khẩu";
                 }   
-                
             }    
             return View();
         }
