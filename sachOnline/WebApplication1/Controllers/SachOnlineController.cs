@@ -17,10 +17,18 @@ namespace WebApplication1.Controllers
             return db.SACHes.OrderByDescending(item => item.NgayCapNhat).Take(count).ToList();
         }
         // GET: SachOnline
-        public ActionResult Index()
+        public ActionResult Index(int ?page)
         {
-            var Danhsach = Laysachmoi(6);
-            return View(Danhsach);
+            const int PageSize = 6;
+            int NowPage = page ?? 1;
+
+            List<SACH> Danhsach = db.SACHes.ToList();
+            int ItemTotal = Danhsach.Count();
+            int SkipPage = (NowPage - 1) * PageSize;
+            var pager = new Pager(ItemTotal, NowPage, PageSize);
+            var ds1 = Danhsach.OrderBy(item => item.MaCD).Skip(SkipPage).Take(PageSize);
+            ViewBag.Pager = pager;
+            return View(ds1);
         }
         public ActionResult ChuDePartial()
         {
