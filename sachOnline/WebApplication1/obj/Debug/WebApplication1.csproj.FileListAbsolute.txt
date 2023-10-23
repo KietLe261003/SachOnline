@@ -160,3 +160,7 @@ C:\Users\MSI PC\Desktop\SachOnline\sachOnline\WebApplication1\obj\Debug\WebAppli
 C:\Users\MSI PC\Desktop\SachOnline\sachOnline\WebApplication1\obj\Debug\WebApplication1.csproj.CopyComplete
 C:\Users\MSI PC\Desktop\SachOnline\sachOnline\WebApplication1\obj\Debug\WebApplication1.dll
 C:\Users\MSI PC\Desktop\SachOnline\sachOnline\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\Users\MSI PC\Desktop\SachOnline\sachOnline\WebApplication1\bin\PagedList.dll
+C:\Users\MSI PC\Desktop\SachOnline\sachOnline\WebApplication1\bin\PagedList.Mvc.dll
+C:\Users\MSI PC\Desktop\SachOnline\sachOnline\WebApplication1\bin\PagedList.xml
+C:\Users\MSI PC\Desktop\SachOnline\sachOnline\WebApplication1\bin\PagedList.Mvc.xml

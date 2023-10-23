@@ -2,6 +2,9 @@
 @{
     ViewBag.Title = "Sachtheonhaxuatban";
     Layout = "~/Views/Shared/Layout_User.cshtml";
+    var p = ViewBag.Pager;
+
+    var id = ViewBag.MaNXB;
 }
 
 @foreach (var item in Model)
@@ -19,5 +22,16 @@
         </div>
     </div>
 }
-
+@section MenuPager{
+    <div class="container">
+        <ul class="pagination justify-content-end">
+            @for (int i = p.StartPage; i <= p.EndPage; i++)
+            {
+                <li class="page-item @(i==p.CurrentPage ? "active" : "")">
+                    <a class="page-link" href="~/SachOnline/Sachtheonhaxuatban?id=@id&page=@i">@i</a>
+                </li>
+            }
+        </ul>
+    </div>
+}
 

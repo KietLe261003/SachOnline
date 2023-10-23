@@ -4,6 +4,9 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using WebApplication1.Models;
+using PagedList;
+using PagedList.Mvc;
+
 namespace WebApplication1.Controllers
 {
     public class SachOnlineController : Controller
@@ -48,21 +51,43 @@ namespace WebApplication1.Controllers
         {
             return PartialView();
         }
-        public ActionResult Sachtheochude(int id)
+        public ActionResult Sachtheochude(int id,int ?page)
         {
+            ViewBag.MaCd = id;
+            const int PageSize= 3;
+            int NowPage = page ?? 1;
+            
             var ds = from s in db.SACHes where s.MaCD==id select s;
-            return View(ds);
+            int ItemTotal = ds.Count();
+            int SkipPage = (NowPage - 1) * PageSize;
+            var pager = new Pager(ItemTotal, NowPage, PageSize);
+            var ds1 = ds.OrderBy(item => item.MaCD).Skip(SkipPage).Take(PageSize);
+            ViewBag.Pager = pager;
+            
+            return View(ds1);
         }
-        public ActionResult Sachtheonhaxuatban(int id)
+        public ActionResult Sachtheonhaxuatban(int id,int ?page)
         {
+            ViewBag.MaNXB = id;
+            const int PageSize = 3;
+            int NowPage = page ?? 1;
             var ds = from s in db.SACHes where s.MaNXB == id select s;
-            return View(ds);
+            int ItemTotal = ds.Count();
+            int SkipPage = (NowPage - 1) * PageSize;
+            var pager = new Pager(ItemTotal, NowPage, PageSize);
+            var ds1 = ds.OrderBy(item => item.MaCD).Skip(SkipPage).Take(PageSize);
+            ViewBag.Pager = pager;
+            return View(ds1);
         }
         
         public ActionResult Chitietsach(int id)
         {
             SACH tmp = db.SACHes.FirstOrDefault(item => item.MaSach==id);
             return View(tmp);
+        }
+        public ActionResult LoginLogout()
+        {
+            return View();   
         }
     }
 }

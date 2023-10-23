@@ -100,6 +100,7 @@ namespace WebApplication1.Controllers
                 {
                     ViewBag.thongbao = "Đăng nhập thành công";
                     Session["TaiKhoan"] = kh;
+                    return RedirectToAction("Index","SachOnline");
                 }   
                 else
                 {

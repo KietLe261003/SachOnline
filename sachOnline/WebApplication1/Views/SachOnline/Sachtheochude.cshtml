@@ -1,7 +1,11 @@
-﻿
+﻿@using PagedList;
 @{
     ViewBag.Title = "Sachtheochude";
     Layout = "~/Views/Shared/Layout_User.cshtml";
+    var p = ViewBag.Pager;
+
+    var id = ViewBag.MaCd;
+   
 }
 @foreach (var item in Model)
 {
@@ -16,6 +20,19 @@
                 <p><a href="#" class="btn btn-warning" role="button"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Add to Cart</a></p>
             </div>
         </div>
+    </div>
+}
+
+@section MenuPager{
+    <div class="container">
+        <ul class="pagination justify-content-end">
+            @for (int i = p.StartPage; i <= p.EndPage; i++)
+            {
+                <li class="page-item @(i==p.CurrentPage ? "active" : "")">
+                    <a class="page-link" href="~/SachOnline/Sachtheochude?id=@id&page=@i">@i</a>
+                </li>
+            }
+        </ul>
     </div>
 }
 
