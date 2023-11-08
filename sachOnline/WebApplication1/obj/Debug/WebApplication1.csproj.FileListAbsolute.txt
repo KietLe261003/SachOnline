@@ -155,7 +155,6 @@ C:\Users\MSI PC\Desktop\SachOnline\sachOnline\WebApplication1\bin\System.Web.Web
 C:\Users\MSI PC\Desktop\SachOnline\sachOnline\WebApplication1\bin\Newtonsoft.Json.xml
 C:\Users\MSI PC\Desktop\SachOnline\sachOnline\WebApplication1\bin\Antlr3.Runtime.pdb
 C:\Users\MSI PC\Desktop\SachOnline\sachOnline\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\MSI PC\Desktop\SachOnline\sachOnline\WebApplication1\obj\Debug\WebApplication1.csproj.AssemblyReference.cache
 C:\Users\MSI PC\Desktop\SachOnline\sachOnline\WebApplication1\obj\Debug\WebApplication1.csproj.CoreCompileInputs.cache
 C:\Users\MSI PC\Desktop\SachOnline\sachOnline\WebApplication1\obj\Debug\WebApplication1.csproj.CopyComplete
 C:\Users\MSI PC\Desktop\SachOnline\sachOnline\WebApplication1\obj\Debug\WebApplication1.dll
@@ -164,3 +163,4 @@ C:\Users\MSI PC\Desktop\SachOnline\sachOnline\WebApplication1\bin\PagedList.dll
 C:\Users\MSI PC\Desktop\SachOnline\sachOnline\WebApplication1\bin\PagedList.Mvc.dll
 C:\Users\MSI PC\Desktop\SachOnline\sachOnline\WebApplication1\bin\PagedList.xml
 C:\Users\MSI PC\Desktop\SachOnline\sachOnline\WebApplication1\bin\PagedList.Mvc.xml
+C:\Users\MSI PC\Desktop\SachOnline\sachOnline\WebApplication1\obj\Debug\WebApplication1.csproj.AssemblyReference.cache

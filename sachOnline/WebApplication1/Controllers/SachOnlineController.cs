@@ -23,10 +23,11 @@ namespace WebApplication1.Controllers
             int NowPage = page ?? 1;
 
             List<SACH> Danhsach = db.SACHes.ToList();
+            ViewBag.s = Danhsach;
             int ItemTotal = Danhsach.Count();
             int SkipPage = (NowPage - 1) * PageSize;
             var pager = new Pager(ItemTotal, NowPage, PageSize);
-            var ds1 = Danhsach.OrderBy(item => item.MaCD).Skip(SkipPage).Take(PageSize);
+            var ds1 = Danhsach.OrderBy(item => item.MaSach).Skip(SkipPage).Take(PageSize);
             ViewBag.Pager = pager;
             return View(ds1);
         }
