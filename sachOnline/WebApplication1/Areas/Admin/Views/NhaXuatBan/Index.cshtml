@@ -1,0 +1,76 @@
+﻿@model IEnumerable<WebApplication1.Models.NHAXUATBAN>
+@using WebApplication1.Models
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+    Pager p = ViewBag.p;
+}
+@*Xây dựn một helper tùy chỉnh để cắt độ dài chuỗi*@ @helper Truncate(string s, int length)
+{
+    if (s.Length < length)
+    {
+        @s
+    }
+    else
+    {
+        @s.Substring(0, length)<text>...</text>
+    }
+}
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            Mã Nhà Xuất Bản
+        </th>
+        <th>
+            Tên Nhà Xuất Bản
+        </th>
+        <th>
+            Địa Chỉ
+        </th>
+        <th>
+            Số Điện Thoại
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @item.MaNXB
+            </td>
+            <td>
+                @Html.Raw(Truncate(item.TenNXB, 70).ToString())
+            </td>
+            <td>
+                @Html.Raw(Truncate(item.DiaChi, 70).ToString())
+            </td>
+            <td>
+                @item.DienThoai
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.MaNXB }) |
+                @Html.ActionLink("Details", "Details", new { id = item.MaNXB }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.MaNXB })
+            </td>
+        </tr>
+    }
+</table>
+
+@section MenuPager{
+    <div class="container">
+        <ul class="pagination justify-content-end">
+            @for (int i = p.StartPage; i <= p.EndPage; i++)
+            {
+                <li class="page-item @(i==p.CurrentPage ? "active" : "")">
+                    <a class="page-link" href="~/Admin/NhaXuatBan/Index?page=@i">@i</a>
+                </li>
+            }
+        </ul>
+    </div>
+}

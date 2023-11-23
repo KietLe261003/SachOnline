@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using WebApplication1.Models;
+using WebApplication1.App_Start;
 namespace WebApplication1.Areas.Admin.Controllers
 {
 
@@ -12,6 +13,7 @@ namespace WebApplication1.Areas.Admin.Controllers
 
         QLBanSachEntities db = new QLBanSachEntities();
         // GET: Admin/Home
+        [AdminAuthorize()]
         public ActionResult Index()
         {
             return View();
@@ -35,6 +37,8 @@ namespace WebApplication1.Areas.Admin.Controllers
             {
                 ViewBag.ThongBao = "Tên Đăng nhập hoặc mật khẩu không đúng";
             }
+
+
             return View();
         }
     }

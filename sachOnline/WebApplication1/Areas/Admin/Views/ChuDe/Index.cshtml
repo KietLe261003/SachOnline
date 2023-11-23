@@ -1,0 +1,68 @@
+﻿@model IEnumerable<WebApplication1.Models.CHUDE>
+@using WebApplication1.Models
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+
+    var p = ViewBag.p;
+}
+
+
+@*Xây dựn một helper tùy chỉnh để cắt độ dài chuỗi*@ @helper Truncate(string s, int length)
+{
+    if (s.Length < length)
+    {
+        @s
+    }
+    else
+    {
+        @s.Substring(0, length)<text>...</text>
+    }
+}
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th style="text-align:center;width:140px">
+            Mã Chủ Đề
+        </th>
+        <th style="width:200px">
+            Tên Chủ Đề
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td style="text-align: center">
+                @item.MaCD
+            </td>
+            <td>
+                @*Sử dụng helper để cắt MoTa lấy 70 ký tự*@
+                @Html.Raw(Truncate(item.TenChuDe, 70).ToString())
+            </td>
+            <td>
+                <a href="@Url.Action("Edit", new { id = item.MaCD })" class="btn btn- warning" role="button">Sửa</a>
+                <a href="@Url.Action("Details", new { id = item.MaCD })" class="btn btn- primary" role="button">Chi tiết</a>
+                <a href="@Url.Action("Delete", new { id = item.MaCD })" class="btn btn- danger" role="button">Xóa</a>
+            </td>
+        </tr>
+    }
+</table>
+
+@section MenuPager{
+    <div class="container">
+        <ul class="pagination justify-content-end">
+            @for (int i = p.StartPage; i <= p.EndPage; i++)
+            {
+                <li class="page-item @(i==p.CurrentPage ? "active" : "")">
+                    <a class="page-link" href="~/Admin/ChuDe/Index?page=@i">@i</a>
+                </li>
+            }
+        </ul>
+    </div>
+}

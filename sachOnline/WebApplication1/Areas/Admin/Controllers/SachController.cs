@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using WebApplication1.App_Start;
 using WebApplication1.Models;
 namespace WebApplication1.Areas.Admin.Controllers
 {
@@ -12,6 +13,7 @@ namespace WebApplication1.Areas.Admin.Controllers
     {
         // GET: Admin/Sach
         QLBanSachEntities db = new QLBanSachEntities();
+        [AdminAuthorize()]
         public ActionResult Index(int? page)
         {
             const int PageSize = 3;
@@ -26,6 +28,7 @@ namespace WebApplication1.Areas.Admin.Controllers
             return View(s1);
         }
         [HttpGet]
+        [AdminAuthorize()]
         public ActionResult Create()
         {
             ViewBag.MaCd = new SelectList(db.CHUDEs.ToList().OrderBy(item=> item.TenChuDe),"MaCD","TenChuDe");

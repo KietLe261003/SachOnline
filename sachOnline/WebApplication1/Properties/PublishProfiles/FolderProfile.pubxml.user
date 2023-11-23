@@ -1,0 +1,960 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>D:\Project_Code\PublicSachOnline</_PublishTargetUrl>
+    <History>True|2023-11-23T13:48:16.3204044Z;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Areas/Admin/Views/ChuDe/Create.cshtml">
+      <publishTime>11/13/2023 15:07:25</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/ChuDe/Delete.cshtml">
+      <publishTime>11/20/2023 10:20:40</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/ChuDe/Details.cshtml">
+      <publishTime>11/20/2023 10:23:19</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/ChuDe/Edit.cshtml">
+      <publishTime>11/13/2023 15:53:28</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/ChuDe/Index.cshtml">
+      <publishTime>11/13/2023 15:13:38</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Home/Index.cshtml">
+      <publishTime>10/22/2023 22:24:18</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Home/Login.cshtml">
+      <publishTime>10/22/2023 22:34:35</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/KhachHang/Create.cshtml">
+      <publishTime>11/20/2023 10:39:51</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/KhachHang/Delete.cshtml">
+      <publishTime>11/20/2023 11:29:25</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/KhachHang/Details.cshtml">
+      <publishTime>11/20/2023 11:24:33</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/KhachHang/Edit.cshtml">
+      <publishTime>11/20/2023 11:32:57</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/KhachHang/Index.cshtml">
+      <publishTime>11/20/2023 10:37:22</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/NhaXuatBan/Create.cshtml">
+      <publishTime>11/20/2023 09:48:16</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/NhaXuatBan/Delete.cshtml">
+      <publishTime>11/20/2023 10:16:05</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/NhaXuatBan/Details.cshtml">
+      <publishTime>11/20/2023 10:04:39</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/NhaXuatBan/Edit.cshtml">
+      <publishTime>11/20/2023 09:56:06</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/NhaXuatBan/Index.cshtml">
+      <publishTime>11/20/2023 09:24:17</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Sach/Create.cshtml">
+      <publishTime>11/05/2023 22:18:13</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Sach/Delete.cshtml">
+      <publishTime>11/06/2023 09:53:23</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Sach/Details.cshtml">
+      <publishTime>11/06/2023 09:49:20</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Sach/Edit.cshtml">
+      <publishTime>11/06/2023 11:00:00</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Sach/Index.cshtml">
+      <publishTime>11/05/2023 22:09:27</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Shared/_Layout.cshtml">
+      <publishTime>11/05/2023 22:22:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/UserAdmin/DangNhap.cshtml">
+      <publishTime>11/23/2023 18:04:20</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/UserAdmin/Index.cshtml">
+      <publishTime>11/23/2023 20:19:48</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/web.config">
+      <publishTime>10/21/2023 21:54:22</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/_ViewStart.cshtml">
+      <publishTime>10/22/2023 22:13:22</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>09/10/2013 16:29:20</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.pdb">
+      <publishTime>09/10/2013 16:29:20</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>03/02/2015 16:32:26</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>03/02/2015 16:32:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>09/05/2018 16:10:50</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>07/25/2012 11:48:56</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>04/22/2019 01:06:16</publishTime>
+    </File>
+    <File Include="bin/PagedList.dll">
+      <publishTime>10/01/2013 00:36:38</publishTime>
+    </File>
+    <File Include="bin/PagedList.Mvc.dll">
+      <publishTime>10/01/2013 01:15:20</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>08/08/2018 12:18:12</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe.config">
+      <publishTime>08/08/2018 12:18:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>08/08/2018 12:09:56</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>12/05/2017 09:36:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>12/05/2017 09:36:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Managed.Core.targets">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Win32.Primitives.dll">
+      <publishTime>11/05/2016 18:55:32</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>11/05/2016 18:55:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>05/16/2018 03:29:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Console.dll">
+      <publishTime>11/05/2016 18:55:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.DiagnosticSource.dll">
+      <publishTime>11/05/2016 18:55:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.FileVersionInfo.dll">
+      <publishTime>11/05/2016 18:55:56</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>11/05/2016 18:55:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Globalization.Calendars.dll">
+      <publishTime>11/05/2016 18:56:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.dll">
+      <publishTime>11/05/2016 18:56:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.ZipFile.dll">
+      <publishTime>11/05/2016 18:56:04</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>11/05/2016 18:56:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>11/05/2016 18:56:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Net.Http.dll">
+      <publishTime>11/05/2016 18:56:30</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Net.Sockets.dll">
+      <publishTime>11/05/2016 18:56:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>05/16/2018 03:29:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Runtime.InteropServices.RuntimeInformation.dll">
+      <publishTime>11/05/2016 18:57:00</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Algorithms.dll">
+      <publishTime>11/05/2016 18:57:14</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Encoding.dll">
+      <publishTime>11/05/2016 18:57:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Primitives.dll">
+      <publishTime>11/05/2016 18:57:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.X509Certificates.dll">
+      <publishTime>11/05/2016 18:57:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Text.Encoding.CodePages.dll">
+      <publishTime>11/05/2016 18:57:20</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Threading.Tasks.Extensions.dll">
+      <publishTime>11/05/2016 18:57:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.ValueTuple.dll">
+      <publishTime>11/05/2016 18:57:30</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.ReaderWriter.dll">
+      <publishTime>11/05/2016 18:57:36</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XmlDocument.dll">
+      <publishTime>11/05/2016 18:57:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.dll">
+      <publishTime>11/05/2016 18:57:40</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.XDocument.dll">
+      <publishTime>11/05/2016 18:57:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>08/08/2018 12:18:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>08/08/2018 12:09:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>08/08/2018 12:18:16</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>11/28/2018 13:04:24</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>11/28/2018 12:59:46</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>02/11/2014 15:26:04</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>11/28/2018 13:00:12</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>11/28/2018 13:04:24</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>11/28/2018 13:04:24</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>11/28/2018 13:04:24</publishTime>
+    </File>
+    <File Include="bin/WebApplication1.dll">
+      <publishTime>11/23/2023 20:48:14</publishTime>
+    </File>
+    <File Include="bin/WebApplication1.pdb">
+      <publishTime>11/23/2023 20:48:14</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>01/23/2014 13:57:34</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css">
+      <publishTime>09/18/2023 13:31:10</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css.map">
+      <publishTime>09/18/2023 13:31:10</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.min.css">
+      <publishTime>09/18/2023 13:31:10</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.min.css.map">
+      <publishTime>09/18/2023 13:31:10</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>09/18/2023 13:31:10</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css.map">
+      <publishTime>09/18/2023 13:31:10</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>09/18/2023 13:31:10</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css.map">
+      <publishTime>09/18/2023 13:31:10</publishTime>
+    </File>
+    <File Include="Content/PagedList.css">
+      <publishTime>10/21/2023 20:40:22</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>09/18/2023 13:31:05</publishTime>
+    </File>
+    <File Include="css/Login.css">
+      <publishTime>10/22/2023 21:00:55</publishTime>
+    </File>
+    <File Include="css/style.css">
+      <publishTime>10/22/2023 20:00:22</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>09/18/2023 13:31:05</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>09/18/2023 13:31:10</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>09/18/2023 13:31:10</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>09/18/2023 13:31:09</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>09/18/2023 13:31:09</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>09/18/2023 13:31:09</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>09/18/2023 13:31:05</publishTime>
+    </File>
+    <File Include="Images/bg_menu_top.jpg">
+      <publishTime>09/18/2023 13:35:13</publishTime>
+    </File>
+    <File Include="Images/Cancel.jpg">
+      <publishTime>09/18/2023 13:35:13</publishTime>
+    </File>
+    <File Include="Images/Chonmua.png">
+      <publishTime>09/18/2023 13:35:13</publishTime>
+    </File>
+    <File Include="Images/Chot.jpg">
+      <publishTime>09/18/2023 13:35:13</publishTime>
+    </File>
+    <File Include="Images/dangnhap.jpg">
+      <publishTime>09/18/2023 13:35:13</publishTime>
+    </File>
+    <File Include="Images/Delete.jpg">
+      <publishTime>09/18/2023 13:35:13</publishTime>
+    </File>
+    <File Include="Images/Download.gif">
+      <publishTime>09/18/2023 13:35:13</publishTime>
+    </File>
+    <File Include="Images/Edit.png">
+      <publishTime>09/18/2023 13:35:13</publishTime>
+    </File>
+    <File Include="Images/Giohang.gif">
+      <publishTime>09/18/2023 13:35:13</publishTime>
+    </File>
+    <File Include="Images/heart.jpg">
+      <publishTime>09/18/2023 13:35:13</publishTime>
+    </File>
+    <File Include="Images/icon_list.jpg">
+      <publishTime>09/18/2023 13:35:13</publishTime>
+    </File>
+    <File Include="Images/LOGO.jpg">
+      <publishTime>09/18/2023 13:35:13</publishTime>
+    </File>
+    <File Include="Images/MISC26.ICO">
+      <publishTime>09/18/2023 13:35:13</publishTime>
+    </File>
+    <File Include="Images/MISC27.ICO">
+      <publishTime>09/18/2023 13:35:13</publishTime>
+    </File>
+    <File Include="Images/muitendo.gif">
+      <publishTime>09/18/2023 13:35:13</publishTime>
+    </File>
+    <File Include="Images/new.jpg">
+      <publishTime>09/18/2023 13:35:13</publishTime>
+    </File>
+    <File Include="Images/nut_chonmua.gif">
+      <publishTime>09/18/2023 13:35:13</publishTime>
+    </File>
+    <File Include="Images/Omo.gif">
+      <publishTime>09/18/2023 13:35:13</publishTime>
+    </File>
+    <File Include="Images/Sach/01.jpg">
+      <publishTime>09/18/2023 13:35:13</publishTime>
+    </File>
+    <File Include="Images/Sach/130318.jpg">
+      <publishTime>09/18/2023 13:35:13</publishTime>
+    </File>
+    <File Include="Images/Sach/130499.jpg">
+      <publishTime>09/18/2023 13:35:13</publishTime>
+    </File>
+    <File Include="Images/Sach/Autumn Leaves.jpg">
+      <publishTime>09/18/2023 13:35:13</publishTime>
+    </File>
+    <File Include="Images/Sach/echip.jpg">
+      <publishTime>09/18/2023 13:35:13</publishTime>
+    </File>
+    <File Include="Images/Sach/Gt_Thcb.jpg">
+      <publishTime>09/18/2023 13:35:13</publishTime>
+    </File>
+    <File Include="Images/Sach/Humpback Whale.jpg">
+      <publishTime>09/18/2023 13:35:13</publishTime>
+    </File>
+    <File Include="Images/Sach/Kt.jpg">
+      <publishTime>09/18/2023 13:35:13</publishTime>
+    </File>
+    <File Include="Images/Sach/KT0001.jpg">
+      <publishTime>09/18/2023 13:35:13</publishTime>
+    </File>
+    <File Include="Images/Sach/KT0002.jpg">
+      <publishTime>09/18/2023 13:35:13</publishTime>
+    </File>
+    <File Include="Images/Sach/KT0003.jpg">
+      <publishTime>09/18/2023 13:35:13</publishTime>
+    </File>
+    <File Include="Images/Sach/KT0004.jpg">
+      <publishTime>09/18/2023 13:35:13</publishTime>
+    </File>
+    <File Include="Images/Sach/KT0005.jpg">
+      <publishTime>09/18/2023 13:35:13</publishTime>
+    </File>
+    <File Include="Images/Sach/KT0006.jpg">
+      <publishTime>09/18/2023 13:35:13</publishTime>
+    </File>
+    <File Include="Images/Sach/KT0007.jpg">
+      <publishTime>09/18/2023 13:35:13</publishTime>
+    </File>
+    <File Include="Images/Sach/KT0008.jpg">
+      <publishTime>09/18/2023 13:35:13</publishTime>
+    </File>
+    <File Include="Images/Sach/KT0009.jpg">
+      <publishTime>09/18/2023 13:35:13</publishTime>
+    </File>
+    <File Include="Images/Sach/LTWeb2005.jpg">
+      <publishTime>09/18/2023 13:35:13</publishTime>
+    </File>
+    <File Include="Images/Sach/Me.jpg">
+      <publishTime>09/18/2023 13:35:13</publishTime>
+    </File>
+    <File Include="Images/Sach/Oracle.jpg">
+      <publishTime>09/18/2023 13:35:13</publishTime>
+    </File>
+    <File Include="Images/Sach/Oryx Antelope.jpg">
+      <publishTime>09/18/2023 13:35:13</publishTime>
+    </File>
+    <File Include="Images/Sach/P0001.jpg">
+      <publishTime>09/18/2023 13:35:13</publishTime>
+    </File>
+    <File Include="Images/Sach/P_0001.jpg">
+      <publishTime>09/18/2023 13:35:13</publishTime>
+    </File>
+    <File Include="Images/Sach/Sample.jpg">
+      <publishTime>09/18/2023 13:35:13</publishTime>
+    </File>
+    <File Include="Images/Sach/TH001.jpg">
+      <publishTime>09/18/2023 13:35:13</publishTime>
+    </File>
+    <File Include="Images/Sach/TH002.jpg">
+      <publishTime>09/18/2023 13:35:13</publishTime>
+    </File>
+    <File Include="Images/Sach/TH003.jpg">
+      <publishTime>09/18/2023 13:35:13</publishTime>
+    </File>
+    <File Include="Images/Sach/TH004.jpg">
+      <publishTime>09/18/2023 13:35:13</publishTime>
+    </File>
+    <File Include="Images/Sach/TH005.jpg">
+      <publishTime>09/18/2023 13:35:13</publishTime>
+    </File>
+    <File Include="Images/Sach/TH006.jpg">
+      <publishTime>09/18/2023 13:35:13</publishTime>
+    </File>
+    <File Include="Images/Sach/TH007.jpg">
+      <publishTime>09/18/2023 13:35:13</publishTime>
+    </File>
+    <File Include="Images/Sach/TH008.jpg">
+      <publishTime>09/18/2023 13:35:13</publishTime>
+    </File>
+    <File Include="Images/Sach/THCB.jpg">
+      <publishTime>09/18/2023 13:35:13</publishTime>
+    </File>
+    <File Include="Images/Sach/Thumbs.db">
+      <publishTime>09/18/2023 13:35:13</publishTime>
+    </File>
+    <File Include="Images/Sach/TiengAnh01.jpg">
+      <publishTime>09/18/2023 13:35:13</publishTime>
+    </File>
+    <File Include="Images/Save.jpg">
+      <publishTime>09/18/2023 13:35:13</publishTime>
+    </File>
+    <File Include="Images/Slider.jpg">
+      <publishTime>09/18/2023 13:35:13</publishTime>
+    </File>
+    <File Include="Images/Sotien.gif">
+      <publishTime>09/18/2023 13:35:13</publishTime>
+    </File>
+    <File Include="Images/tittle_sachmoi.gif">
+      <publishTime>09/18/2023 13:35:13</publishTime>
+    </File>
+    <File Include="Images/xehang.gif">
+      <publishTime>09/18/2023 13:35:13</publishTime>
+    </File>
+    <File Include="Models/dbSachOnline.edmx.diagram">
+      <publishTime>09/25/2023 13:13:15</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>09/18/2023 13:31:09</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>09/18/2023 13:31:09</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.4.1.js">
+      <publishTime>09/18/2023 13:31:10</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.4.1.min.js">
+      <publishTime>09/18/2023 13:31:10</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.4.1.min.map">
+      <publishTime>09/18/2023 13:31:10</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.4.1.slim.js">
+      <publishTime>09/18/2023 13:31:10</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.4.1.slim.min.js">
+      <publishTime>09/18/2023 13:31:10</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.4.1.slim.min.map">
+      <publishTime>09/18/2023 13:31:10</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.js">
+      <publishTime>09/18/2023 13:31:13</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.min.js">
+      <publishTime>09/18/2023 13:31:13</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.js">
+      <publishTime>09/18/2023 13:31:13</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.min.js">
+      <publishTime>09/18/2023 13:31:13</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.8.3.js">
+      <publishTime>09/18/2023 13:31:12</publishTime>
+    </File>
+    <File Include="tinymce/CHANGELOG.md">
+      <publishTime>11/05/2023 22:20:26</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/icons/default/icons.min.js">
+      <publishTime>11/05/2023 22:20:26</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/langs/README.md">
+      <publishTime>11/05/2023 22:20:26</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/license.txt">
+      <publishTime>11/05/2023 22:20:26</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/models/dom/model.min.js">
+      <publishTime>11/05/2023 22:20:26</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/accordion/plugin.min.js">
+      <publishTime>11/05/2023 22:20:26</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/advlist/plugin.min.js">
+      <publishTime>11/05/2023 22:20:26</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/anchor/plugin.min.js">
+      <publishTime>11/05/2023 22:20:26</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/autolink/plugin.min.js">
+      <publishTime>11/05/2023 22:20:26</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/autoresize/plugin.min.js">
+      <publishTime>11/05/2023 22:20:26</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/autosave/plugin.min.js">
+      <publishTime>11/05/2023 22:20:26</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/charmap/plugin.min.js">
+      <publishTime>11/05/2023 22:20:26</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/code/plugin.min.js">
+      <publishTime>11/05/2023 22:20:26</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/codesample/plugin.min.js">
+      <publishTime>11/05/2023 22:20:26</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/directionality/plugin.min.js">
+      <publishTime>11/05/2023 22:20:26</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/emoticons/js/emojiimages.js">
+      <publishTime>11/05/2023 22:20:26</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/emoticons/js/emojiimages.min.js">
+      <publishTime>11/05/2023 22:20:26</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/emoticons/js/emojis.js">
+      <publishTime>11/05/2023 22:20:26</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/emoticons/js/emojis.min.js">
+      <publishTime>11/05/2023 22:20:26</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/emoticons/plugin.min.js">
+      <publishTime>11/05/2023 22:20:26</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/fullscreen/plugin.min.js">
+      <publishTime>11/05/2023 22:20:26</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/help/js/i18n/keynav/ar.js">
+      <publishTime>11/05/2023 22:20:26</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/help/js/i18n/keynav/bg_BG.js">
+      <publishTime>11/05/2023 22:20:26</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/help/js/i18n/keynav/ca.js">
+      <publishTime>11/05/2023 22:20:26</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/help/js/i18n/keynav/cs.js">
+      <publishTime>11/05/2023 22:20:26</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/help/js/i18n/keynav/da.js">
+      <publishTime>11/05/2023 22:20:26</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/help/js/i18n/keynav/de.js">
+      <publishTime>11/05/2023 22:20:26</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/help/js/i18n/keynav/el.js">
+      <publishTime>11/05/2023 22:20:26</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/help/js/i18n/keynav/en.js">
+      <publishTime>11/05/2023 22:20:26</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/help/js/i18n/keynav/es.js">
+      <publishTime>11/05/2023 22:20:26</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/help/js/i18n/keynav/eu.js">
+      <publishTime>11/05/2023 22:20:26</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/help/js/i18n/keynav/fa.js">
+      <publishTime>11/05/2023 22:20:26</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/help/js/i18n/keynav/fi.js">
+      <publishTime>11/05/2023 22:20:26</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/help/js/i18n/keynav/fr_FR.js">
+      <publishTime>11/05/2023 22:20:26</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/help/js/i18n/keynav/he_IL.js">
+      <publishTime>11/05/2023 22:20:26</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/help/js/i18n/keynav/hi.js">
+      <publishTime>11/05/2023 22:20:26</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/help/js/i18n/keynav/hr.js">
+      <publishTime>11/05/2023 22:20:26</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/help/js/i18n/keynav/hu_HU.js">
+      <publishTime>11/05/2023 22:20:26</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/help/js/i18n/keynav/id.js">
+      <publishTime>11/05/2023 22:20:26</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/help/js/i18n/keynav/it.js">
+      <publishTime>11/05/2023 22:20:26</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/help/js/i18n/keynav/ja.js">
+      <publishTime>11/05/2023 22:20:26</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/help/js/i18n/keynav/kk.js">
+      <publishTime>11/05/2023 22:20:26</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/help/js/i18n/keynav/ko_KR.js">
+      <publishTime>11/05/2023 22:20:26</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/help/js/i18n/keynav/ms.js">
+      <publishTime>11/05/2023 22:20:26</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/help/js/i18n/keynav/nb_NO.js">
+      <publishTime>11/05/2023 22:20:26</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/help/js/i18n/keynav/nl.js">
+      <publishTime>11/05/2023 22:20:26</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/help/js/i18n/keynav/pl.js">
+      <publishTime>11/05/2023 22:20:26</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/help/js/i18n/keynav/pt_BR.js">
+      <publishTime>11/05/2023 22:20:26</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/help/js/i18n/keynav/pt_PT.js">
+      <publishTime>11/05/2023 22:20:26</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/help/js/i18n/keynav/ro.js">
+      <publishTime>11/05/2023 22:20:26</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/help/js/i18n/keynav/ru.js">
+      <publishTime>11/05/2023 22:20:26</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/help/js/i18n/keynav/sk.js">
+      <publishTime>11/05/2023 22:20:26</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/help/js/i18n/keynav/sl_SI.js">
+      <publishTime>11/05/2023 22:20:26</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/help/js/i18n/keynav/sv_SE.js">
+      <publishTime>11/05/2023 22:20:26</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/help/js/i18n/keynav/th_TH.js">
+      <publishTime>11/05/2023 22:20:26</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/help/js/i18n/keynav/tr.js">
+      <publishTime>11/05/2023 22:20:26</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/help/js/i18n/keynav/uk.js">
+      <publishTime>11/05/2023 22:20:26</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/help/js/i18n/keynav/vi.js">
+      <publishTime>11/05/2023 22:20:26</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/help/js/i18n/keynav/zh_CN.js">
+      <publishTime>11/05/2023 22:20:26</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/help/js/i18n/keynav/zh_TW.js">
+      <publishTime>11/05/2023 22:20:26</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/help/plugin.min.js">
+      <publishTime>11/05/2023 22:20:26</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/image/plugin.min.js">
+      <publishTime>11/05/2023 22:20:26</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/importcss/plugin.min.js">
+      <publishTime>11/05/2023 22:20:26</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/insertdatetime/plugin.min.js">
+      <publishTime>11/05/2023 22:20:26</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/link/plugin.min.js">
+      <publishTime>11/05/2023 22:20:26</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/lists/plugin.min.js">
+      <publishTime>11/05/2023 22:20:26</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/media/plugin.min.js">
+      <publishTime>11/05/2023 22:20:26</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/nonbreaking/plugin.min.js">
+      <publishTime>11/05/2023 22:20:26</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/pagebreak/plugin.min.js">
+      <publishTime>11/05/2023 22:20:26</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/preview/plugin.min.js">
+      <publishTime>11/05/2023 22:20:26</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/quickbars/plugin.min.js">
+      <publishTime>11/05/2023 22:20:26</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/save/plugin.min.js">
+      <publishTime>11/05/2023 22:20:26</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/searchreplace/plugin.min.js">
+      <publishTime>11/05/2023 22:20:26</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/table/plugin.min.js">
+      <publishTime>11/05/2023 22:20:27</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/template/plugin.min.js">
+      <publishTime>11/05/2023 22:20:27</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/visualblocks/plugin.min.js">
+      <publishTime>11/05/2023 22:20:27</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/visualchars/plugin.min.js">
+      <publishTime>11/05/2023 22:20:27</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/plugins/wordcount/plugin.min.js">
+      <publishTime>11/05/2023 22:20:27</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/skins/content/dark/content.min.css">
+      <publishTime>11/05/2023 22:20:27</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/skins/content/default/content.min.css">
+      <publishTime>11/05/2023 22:20:27</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/skins/content/document/content.min.css">
+      <publishTime>11/05/2023 22:20:27</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/skins/content/tinymce-5-dark/content.min.css">
+      <publishTime>11/05/2023 22:20:27</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/skins/content/tinymce-5/content.min.css">
+      <publishTime>11/05/2023 22:20:27</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/skins/content/writer/content.min.css">
+      <publishTime>11/05/2023 22:20:27</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/skins/ui/oxide-dark/content.inline.min.css">
+      <publishTime>11/05/2023 22:20:27</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/skins/ui/oxide-dark/content.min.css">
+      <publishTime>11/05/2023 22:20:27</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/skins/ui/oxide-dark/skin.min.css">
+      <publishTime>11/05/2023 22:20:27</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/skins/ui/oxide-dark/skin.shadowdom.min.css">
+      <publishTime>11/05/2023 22:20:27</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/skins/ui/oxide/content.inline.min.css">
+      <publishTime>11/05/2023 22:20:27</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/skins/ui/oxide/content.min.css">
+      <publishTime>11/05/2023 22:20:27</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/skins/ui/oxide/skin.min.css">
+      <publishTime>11/05/2023 22:20:27</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/skins/ui/oxide/skin.shadowdom.min.css">
+      <publishTime>11/05/2023 22:20:27</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/skins/ui/tinymce-5-dark/content.inline.min.css">
+      <publishTime>11/05/2023 22:20:27</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/skins/ui/tinymce-5-dark/content.min.css">
+      <publishTime>11/05/2023 22:20:27</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/skins/ui/tinymce-5-dark/skin.min.css">
+      <publishTime>11/05/2023 22:20:27</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/skins/ui/tinymce-5-dark/skin.shadowdom.min.css">
+      <publishTime>11/05/2023 22:20:27</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/skins/ui/tinymce-5/content.inline.min.css">
+      <publishTime>11/05/2023 22:20:27</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/skins/ui/tinymce-5/content.min.css">
+      <publishTime>11/05/2023 22:20:27</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/skins/ui/tinymce-5/skin.min.css">
+      <publishTime>11/05/2023 22:20:27</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/skins/ui/tinymce-5/skin.shadowdom.min.css">
+      <publishTime>11/05/2023 22:20:27</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/themes/silver/theme.min.js">
+      <publishTime>11/05/2023 22:20:27</publishTime>
+    </File>
+    <File Include="tinymce/js/tinymce/tinymce.min.js">
+      <publishTime>11/05/2023 22:20:27</publishTime>
+    </File>
+    <File Include="Views/GioHang/DatHang.cshtml">
+      <publishTime>10/22/2023 22:58:16</publishTime>
+    </File>
+    <File Include="Views/GioHang/GioHang.cshtml">
+      <publishTime>10/09/2023 14:30:03</publishTime>
+    </File>
+    <File Include="Views/GioHang/GioHangPartial.cshtml">
+      <publishTime>10/22/2023 22:45:42</publishTime>
+    </File>
+    <File Include="Views/GioHang/XacNhanDonHang.cshtml">
+      <publishTime>10/22/2023 23:00:02</publishTime>
+    </File>
+    <File Include="Views/GioHang/XoaGioHang.cshtml">
+      <publishTime>10/09/2023 13:13:54</publishTime>
+    </File>
+    <File Include="Views/Home/About.cshtml">
+      <publishTime>09/18/2023 13:31:05</publishTime>
+    </File>
+    <File Include="Views/Home/Contact.cshtml">
+      <publishTime>09/18/2023 13:31:05</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>09/18/2023 13:31:05</publishTime>
+    </File>
+    <File Include="Views/Home/Login.cshtml">
+      <publishTime>10/22/2023 22:10:59</publishTime>
+    </File>
+    <File Include="Views/SachOnline/Chitietsach.cshtml">
+      <publishTime>10/09/2023 10:50:31</publishTime>
+    </File>
+    <File Include="Views/SachOnline/FooterPartial.cshtml">
+      <publishTime>09/25/2023 14:31:39</publishTime>
+    </File>
+    <File Include="Views/SachOnline/Index.cshtml">
+      <publishTime>11/06/2023 11:31:53</publishTime>
+    </File>
+    <File Include="Views/SachOnline/LoginLogout.cshtml">
+      <publishTime>10/22/2023 22:53:53</publishTime>
+    </File>
+    <File Include="Views/SachOnline/NavPartial.cshtml">
+      <publishTime>10/22/2023 22:53:24</publishTime>
+    </File>
+    <File Include="Views/SachOnline/Sachtheochude.cshtml">
+      <publishTime>10/22/2023 23:04:27</publishTime>
+    </File>
+    <File Include="Views/SachOnline/Sachtheonhaxuatban.cshtml">
+      <publishTime>10/21/2023 21:53:04</publishTime>
+    </File>
+    <File Include="Views/SachOnline/SliderPartia.cshtml">
+      <publishTime>09/25/2023 14:30:58</publishTime>
+    </File>
+    <File Include="Views/SachOnline/SliderPartial.cshtml">
+      <publishTime>09/25/2023 14:41:17</publishTime>
+    </File>
+    <File Include="Views/Shared/ChuDePartial.cshtml">
+      <publishTime>09/25/2023 15:48:11</publishTime>
+    </File>
+    <File Include="Views/Shared/Error.cshtml">
+      <publishTime>09/18/2023 13:31:05</publishTime>
+    </File>
+    <File Include="Views/Shared/Layout_User.cshtml">
+      <publishTime>10/23/2023 15:08:09</publishTime>
+    </File>
+    <File Include="Views/Shared/SachBanNhieu.cshtml">
+      <publishTime>09/25/2023 14:18:41</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>09/18/2023 13:31:05</publishTime>
+    </File>
+    <File Include="Views/User/Dangky.cshtml">
+      <publishTime>09/28/2023 15:39:11</publishTime>
+    </File>
+    <File Include="Views/User/DangNhap.cshtml">
+      <publishTime>10/09/2023 16:19:28</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>09/18/2023 13:31:05</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>09/18/2023 13:31:05</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>11/23/2023 20:48:15</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

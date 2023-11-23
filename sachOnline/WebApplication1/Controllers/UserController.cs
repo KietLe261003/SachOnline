@@ -107,7 +107,7 @@ namespace WebApplication1.Controllers
                     ViewBag.thongbao = "Sai tên tk hoặc mật khẩu";
                 }   
             }    
-            return View();
+            return RedirectToAction("Index","Home");
         }
     }
 }
